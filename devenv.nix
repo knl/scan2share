@@ -5,7 +5,12 @@
   # env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.gopls pkgs.go-tools ];
+  packages = with pkgs; [
+    gopls
+    go-tools
+    libjpeg_turbo
+    libusb
+  ];
 
   # https://devenv.sh/scripts/
   # scripts.hello.exec = "echo hello from $GREET";
