@@ -18,7 +18,7 @@ require (
 	golang.org/x/net v0.2.0
 	golang.org/x/oauth2 v0.2.0
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.2.0
+	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/api v0.28.0
 	google.golang.org/genproto v0.0.0-20200702021140-07506425bd67 // indirect
@@ -26,7 +26,10 @@ require (
 	google.golang.org/protobuf v1.28.0 // indirect
 )
 
-require github.com/stapelberg/turbojpeg v0.0.0-20220502190328-108fc19f61ba
+require (
+	github.com/google/gousb v1.1.2
+	github.com/stapelberg/turbojpeg v0.0.0-20220502190328-108fc19f61ba
+)
 
 require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
