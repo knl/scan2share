@@ -1,1 +1,6 @@
 /neonjpeg.test
+
+# Devenv
+.devenv*
+devenv.local.nix
+
